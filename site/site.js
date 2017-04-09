@@ -1,6 +1,9 @@
 $("svgElement").ready(function () {
   'use strict';
-  svgdraw();
+  
+  var svg = document.getElementById('svgElement');
+  
+  svgdraw(svg);
 });
 
 document.getElementById("site-footer").innerHTML =
